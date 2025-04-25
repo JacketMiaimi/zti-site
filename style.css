@@ -127,6 +127,11 @@ footer {
   width: auto;
 }
 
+.aInPride{
+  text-decoration: none;
+  color: black;
+}
+
 
 /* Медиа-запрос для телефонов */
 @media (max-width: 768px) {
