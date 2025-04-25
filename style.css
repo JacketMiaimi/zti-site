@@ -10,9 +10,12 @@ body {
 }
 
 header {
-  background: #0073e6;
+  background: url("img/ЗТИ.jpg");
   color: white;
   padding: 15px;
+  background-size: cover;
+  -webkit-text-stroke: 0.7px rgb(0, 128, 255);
+  font-size: 20px;
 }
 
 nav {
@@ -51,19 +54,79 @@ main {
   margin-bottom: 10%;
 }
 
+.highlight {
+  background-color: rgb(146, 200, 255); /* светло-жёлтый */
+  padding: 15px;
+  border-radius: 10px; /* скругление углов */
+  border: 2px solid; /* рамка */
+}
+
 section {
   margin-bottom: 30px;
 }
 
 /* Футер */
 footer {
-  background: #333;
-  color: white;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  background-color: #222;
+  color: #eee;
+  padding: 30px 20px;
+  text-align: left;
 }
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-section h3, .footer-section h4 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.XAA{
+  height: 460px ;
+  width: auto;
+}
+
 
 /* Медиа-запрос для телефонов */
 @media (max-width: 768px) {
