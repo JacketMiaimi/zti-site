@@ -48,7 +48,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-  }
+}
 
 .container-items {
   max-width: 800px;
@@ -143,13 +143,6 @@ footer {
   color: #00588b;
 }
 
-/* .container-center{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  justify-self: center;
-} */
-
 .gallery {
   display: flex;
   overflow-x: auto;
@@ -201,10 +194,27 @@ footer {
   display: block;
 }
 
+.image-container {
+  width: 100%;
+  max-width: 640px; /* Максимальная ширина, как и для видео */
+  margin: 0 auto; /* Центрируем */
+  border-radius: 40%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 /* Медиа-запрос для телефонов */
 @media (max-width: 768px) {
   footer {
     position: relative;
     margin-top: 20px;
+  }
+  img {
+    max-width: 100%; /* На телефоне картинка занимает всю ширину */
   }
 }
