@@ -44,6 +44,12 @@ main {
   padding: 20px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
 .container-items {
   max-width: 800px;
   margin: 0 auto;
@@ -181,6 +187,18 @@ footer {
 
 .PPP{
   font-size: 20px;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 640px; /* Максимальная ширина */
+  margin: 0 auto; /* Чтобы по центру */
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Медиа-запрос для телефонов */
