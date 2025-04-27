@@ -26,7 +26,7 @@ nav {
 }
 
 h2{
-    text-align: center;
+  text-align: center;
 }
 
 nav a {
@@ -207,6 +207,10 @@ footer {
   display: block;
 }
 
+.Zagol{
+  color: #ffffff;
+  -webkit-text-stroke: 0.7px rgb(128, 30, 158);
+}
 
 /* Медиа-запрос для телефонов */
 @media (max-width: 768px) {
